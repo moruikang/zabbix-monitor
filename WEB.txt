@@ -1,0 +1,3 @@
+http://www.baidu.com
+http://www.sina.com.cn
+http://www.163.com 172.16.1.194

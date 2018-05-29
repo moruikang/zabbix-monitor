@@ -1,0 +1,2 @@
+jira.umlife.net
+conf.umlife.net
