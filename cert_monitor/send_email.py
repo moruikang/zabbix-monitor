@@ -6,11 +6,11 @@ from smtplib import SMTP_SSL
 
 
 #sender_qq为发件人的qq号码
-sender_qq = '511452239'
+sender_qq = 'xxxx'
 #pwd为qq邮箱的授权码
-pwd = 'mdqekbifknxqbibd'
+pwd = 'xxxx'
 #收件人邮箱receiver
-receiver= ['moruikang@youmi.net']
+receiver= ['xxxx']
 #邮件的正文内容
 mail_content = '你好，测试'
 #邮件标题
@@ -19,8 +19,8 @@ mail_title = '测试邮件'
 def send_mail(receiver=[],mail_title='',mail_content=''):
 
     # qq邮箱smtp服务器
-    sender_qq = '511452239'
-    pwd = 'mdqekbifknxqbibd'
+    sender_qq = 'xxxx'
+    pwd = 'xxxx'
     host_server = 'smtp.qq.com'
     sender_qq_mail = sender_qq+'@qq.com'
 
