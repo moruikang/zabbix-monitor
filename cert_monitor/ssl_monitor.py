@@ -51,29 +51,6 @@ def get_ssl_expired_time(url):
         print "certification will be expired in %d days" % expired_day
         return expired_day, expired_time
 
-#def send_email(mail_list, sub, content):
-#
-#    mail_host = "smtp.qq.com" #"smtp.126.com"
-#    mail_user = "511452239" #"wanty23"
-#    mail_pass = "mrkhwjl821" #"8529293"
-#    mail_postfix = "qq.com" #"126.com"
-#    
-#    me = "domain name expired support" + "<" + mail_user +"@" + mail_postfix + ">"
-#    msg = MIMEText(content, _subtype="plain", _charset="gb2312")
-#    msg["Subject"] = sub
-#    msg["From"] = me
-#    msg["To"] = str(mail_list)
-   
-#    try:
-#        server = smtplib.SMTP()
-#        server.connect(mail_host)
-#        server.login(mail_user,mail_pass)
-#        server.sendmail(me, mail_list, msg.as_string())
-#        server.close()
-#        return True
-#    except Exception, e:
-#        print str(e)
-#        return False
 
 def record_msg(url ,ip, expired_day, expired_time):
 
